@@ -48,13 +48,6 @@ $config		= array(
 							'key'			=> 'sodjom_dbprefix',
 							'type'			=> 'string'
 						),
-						array(
-							'title'			=> 'Joomla Encryption',
-							'description'	=> "How are passwords hashed in Joomla? default is MD5-HEX" ,
-							'key'			=> 'sodjom_hashtype',
-							'type'			=> 'select',
-							'options'		=> array( array( 'md5-hex', 'MD5-HEX' ), array( 'plain', 'Plain Text' ), array('sha', 'SHA'), array('crypt', 'CRYPT'), array('md5-base64', 'MD5-BASE64'), array('ssha', 'SSHA'), array('smd5', 'SMD5'), array('aprmd5', 'APRMD5'), )
-						),
 					array(
 							'title'			=> 'Joomla Database Connection Type',
 							'description'	=> "This field is only used for databases that use connection types, such as MS-SQL",
